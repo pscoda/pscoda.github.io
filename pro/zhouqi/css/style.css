@@ -3,9 +3,10 @@
   src: url("fonts/FZLTXHJW.otf");
 }
 body {
-  font-family: FZLTXHJW;
+  /*font-family: 微软雅黑;*/
   margin:0;
   overflow-x: hidden;
+  font: normal 100% 微软雅黑;
 }
 
 .xjtext {
@@ -69,7 +70,7 @@ section {
   /*margin-top: 1rem;*/
 }
 .intro-text {
-  font-size: 0.25em;
+  font-size: 16px;
   position: relative;
   /*margin-bottom: 1em;*/
 }
@@ -153,7 +154,7 @@ section {
 }
 @media screen and (min-width: 1200px) {
   .intro-text {
-    font-size: 0.16em;
+    font-size: 16px;
   }
 }
 
