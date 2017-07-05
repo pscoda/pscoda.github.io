@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	// document.write('<script language=javascript src="/js/d3.v3.min.js"></script>');
 	var width = document.body.clientWidth,
-	    height = 700,
+	    height = 550,
 	    padding = 85; //svg边距
 	var pathWidth = 10; //比赛间路径长度
 

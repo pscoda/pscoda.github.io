@@ -137,12 +137,15 @@ section {
   position: relative;
 }
 
-.MDS-container .MDSimg{
-  width: 60%;
-  height: 60%;
-  left: 20%; 
-  position: relative;
+.mdscontainer {
+  margin: 0 auto;
+  text-align: center;
 }
+
+.mdsimage {
+  width: 60%;
+}
+
 .MDS-container .intro-text{
   /*padding-bottom: 1rem;*/
   top: 2rem
