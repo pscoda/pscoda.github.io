@@ -167,6 +167,9 @@ svg.selectAll("rect")
 		if (ty + pheight + 10 > height) {
 			ty = height - pheight - 10;
 		}
+		if (tx + pwidth + 10 > width) {
+			tx = width - pwidth - 10;
+		}
 		console.log(tx,ty, 'dsfsdfsd');
 		var panel = svg.append('g')
 				.attr('class', 'datapanel')

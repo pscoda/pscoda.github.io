@@ -115,9 +115,9 @@ section {
 }
 
 .redpanel {
-  background: url(../img/right.jpg), url(../img/left.png);
-  background-position: 151% 1%, -24% bottom;
-  background-size: 55%, 35%;
+  background: url(../img/right.png), url(../img/left.png);
+  background-position: 151% 1%, -28% bottom;
+  background-size: 55%, 37%;
   background-repeat: no-repeat, no-repeat;
 }
 
