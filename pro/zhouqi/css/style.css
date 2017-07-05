@@ -106,8 +106,8 @@ section {
 }
 .title-diamond {
   background: #f22525;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   transform:rotate(45deg);
   display: inline-block;
   vertical-align: middle;
