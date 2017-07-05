@@ -153,12 +153,14 @@ section {
   position: relative;
 }
 .footer-text{
-  font-size: 0.3em;
-  color: white;
-  left: 45%;
-  position: relative;
-  top: 0.6rem;
-  font-size: 0.5em;
+    font-size: 0.3em;
+    color: white;
+    left: 45%;
+    /* top: 40% !important; */
+    position: relative;
+    /* top: 0.6rem; */
+    font-size: 0.5em;
+    line-height: 5.5em;
 }
 @media screen and (min-width: 1200px) {
   .intro-text {
