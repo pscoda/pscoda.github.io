@@ -90,6 +90,7 @@ section {
   font-size: 0.15em;
   position: relative;
   padding-right: 1rem;
+  line-height: 2em;
 }
 
 .second-page {
@@ -111,6 +112,13 @@ section {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0.5em;
+}
+
+.redpanel {
+  background: url(../img/right.jpg), url(../img/left.png);
+  background-position: 151% 1%, -24% bottom;
+  background-size: 55%, 35%;
+  background-repeat: no-repeat, no-repeat;
 }
 
 
