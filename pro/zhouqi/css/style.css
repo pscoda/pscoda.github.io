@@ -106,12 +106,12 @@ section {
 }
 .title-diamond {
   background: #f22525;
-  left: -0.5rem;
-  top: 0.30rem;
-  position: absolute;
   width: 15px;
   height: 15px;
   transform:rotate(45deg);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
 }
 
 
