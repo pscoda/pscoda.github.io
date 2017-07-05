@@ -95,14 +95,12 @@ section {
   width: 100%;
 }
 .second-page .title {
-  left: 7.3rem;
-  top: -65px;
   font-size: 0.4em;
-  position: relative;
-  width: 40%;
+  margin: 0 auto;
+  text-align: center;
 }
 .second-page .title .sub-title {
-  position: absolute;
+  position: relative;
 }
 .title-diamond {
   background: #f22525;
