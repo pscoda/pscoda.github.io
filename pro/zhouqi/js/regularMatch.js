@@ -164,13 +164,19 @@ svg.selectAll("rect")
 		var node = document.getElementById('changguisai');
 		let tx = d3.mouse(this)[0];
 		let ty = d3.mouse(this)[1];
-		if (ty + pheight > height) {
-			ty = height - pheight;
+		if (ty + pheight + 10 > height) {
+			ty = height - pheight - 10;
 		}
 		console.log(tx,ty, 'dsfsdfsd');
 		var panel = svg.append('g')
 				.attr('class', 'datapanel')
 				.attr('transform', 'translate(' + (tx + rectWidth * Math.sqrt(d)) + ',' + ty + ')')
+		panel.append('image')
+				.attr('x', 0)
+				.attr('y', 0)
+				.attr('xlink:href', './img/panelbackground.png')
+				.attr('width', pwidth + 10)
+				.attr('height', pheight + 10);
 		panel.append('rect')
 				.attr('x', 0)
 				.attr('y', 0)
@@ -233,34 +239,34 @@ svg.selectAll("rect")
 				.attr('x', 0.125 * pwidth)
 				.attr('y', 138 + 10);
 		// let tx = parseFloat(d3.select(this).attr("x"));
-		game.style("left", function(){
-				return tx + "px";
-				// if(tx+205<=width){
-				// 	return tx + "px";
-				// }
-				// else{
-				// 	return (width-205) + "px";
-				// }
-			})
-			.style("top", ty + "px")
-			// .style("top", (parseFloat(d3.select(this).attr("y")) + 50) + "px")
-			.style("opacity",1.0);
-		game.select("#xj").select("#game_xj_prob")
-			.html(dataScore1[i]);
-		game.select("#team").select("#game_team_name")
-			.html(dataTeam[i]);
-		game.select("#team").select("#game_team_img")
-			.attr("src","./img/image/"+dataImg[i]);
-		game.select("#team").select("#game_team_prob")
-			.html(dataScore2[i]);
-		game.select("#zhouqi")
-			.html("周琦得分：" + dataScoreZ[i] + "<br />" + 
-					"篮板：" + dataLb[i] + "<br />" +
-					"盖帽：" + dataGm[i]);
+		// game.style("left", function(){
+		// 		return tx + "px";
+		// 		// if(tx+205<=width){
+		// 		// 	return tx + "px";
+		// 		// }
+		// 		// else{
+		// 		// 	return (width-205) + "px";
+		// 		// }
+		// 	})
+		// 	.style("top", ty + "px")
+		// 	// .style("top", (parseFloat(d3.select(this).attr("y")) + 50) + "px")
+		// 	.style("opacity",1.0);
+		// game.select("#xj").select("#game_xj_prob")
+		// 	.html(dataScore1[i]);
+		// game.select("#team").select("#game_team_name")
+		// 	.html(dataTeam[i]);
+		// game.select("#team").select("#game_team_img")
+		// 	.attr("src","./img/image/"+dataImg[i]);
+		// game.select("#team").select("#game_team_prob")
+		// 	.html(dataScore2[i]);
+		// game.select("#zhouqi")
+		// 	.html("周琦得分：" + dataScoreZ[i] + "<br />" + 
+		// 			"篮板：" + dataLb[i] + "<br />" +
+		// 			"盖帽：" + dataGm[i]);
 		}
 	})
 	.on("mouseleave",function(d, i){
 		d3.select('.datapanel').remove();
-		game.style("opacity",0.0);
+		// game.style("opacity",0.0);
 	})
 	;
