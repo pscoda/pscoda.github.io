@@ -1,6 +1,6 @@
 body {
   font-family: Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1.7;
   color: #000;
   background-color: #fff;
@@ -24,14 +24,20 @@ img {
 }
 
 .diagram {
-  max-width: 90%;
+  width: 90%;
   height: auto;
-    padding-bottom: 10px
+  /*padding-bottom: 10px;*/
+}
+.diagram2 {
+  width: 80%;
+  height: auto;
+  padding-bottom: 10px;
 }
 
 .zhouqi {
   max-width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .myhead {
@@ -43,15 +49,13 @@ img {
 .headimg {
   width: 100%;
   text-align: center;
-  /*margin-left: -5px;*/
-  /*margin-right: -5px;*/
-  /*margin-left: 5%;*/
 }
 
 .row {
   margin-right: 0px;
   margin-left: 0px;
   text-align: center;
+  width: 100%;
 }
 
 .headtext {
@@ -60,16 +64,18 @@ img {
   text-align: justify;
   margin-left: 6%;
   margin-right: 6%;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
 .arrow {
   height: 2em;
 }
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 
 .arrow {
   height: 3em;
@@ -95,7 +101,7 @@ img {
 
 
 .main {
-  padding-top: 67px;
+  /*padding-top: 67px;*/
 }
 
 .diamond {
