@@ -171,6 +171,8 @@ section {
   display: inline-block;
   padding-left: 4em;
   text-align: left;
+  position: relative;
+  top: -3em;
 }
 
 .footer_text {
@@ -220,9 +222,9 @@ section {
   left: 0em;
 }
 
-/*.footer_container {
-  height: 25em;
-  background-image: url(../img/footer.png);
-  background-repeat: no-repeat;
-  background-size: 
-}*/
+.logocontainer {
+  display: inline-block;
+  font-size: 0.6em;
+  float: left;
+  text-indent: 0;
+}

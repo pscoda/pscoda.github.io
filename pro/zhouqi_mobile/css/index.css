@@ -124,6 +124,7 @@ p {
 .qrcodecontainer {
   display: inline-block;
   font-size: 0.6em;
+  vertical-align: top;
 }
 
 .qrcodeimg {
