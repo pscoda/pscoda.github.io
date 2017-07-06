@@ -156,6 +156,7 @@ section {
 .footer_img_text_container {
   top: 8em;
   position: relative;
+  line-height: 2.2
 }
 
 .footer_img_container {
@@ -165,14 +166,13 @@ section {
 }
 
 .footer_text_container {
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   font-size: 0.4em;
   text-indent: 0;
   display: inline-block;
   padding-left: 4em;
   text-align: left;
-  position: relative;
-  top: -3em;
+  vertical-align: top;
 }
 
 .footer_text {
@@ -183,7 +183,7 @@ section {
 }
 
 .footer_text2 {
-  width: 22em;
+  width: 26em;
   display: inline;
   float: left;
   padding-left: 4em;
@@ -223,8 +223,19 @@ section {
 }
 
 .logocontainer {
-  display: inline-block;
+  /*display: inline-block;*/
   font-size: 0.6em;
-  float: left;
+  /*float: left;*/
   text-indent: 0;
+}
+
+.top {
+  vertical-align: top;
+}
+
+.logodiv {
+  width: 11em;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
 }

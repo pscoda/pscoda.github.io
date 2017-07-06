@@ -119,11 +119,12 @@ p {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   text-indent: 0;
+  text-align:center;
 }
 
 .qrcodecontainer {
-  display: inline-block;
-  font-size: 0.6em;
+  /*display: inline-block;*/
+  /*font-size: 0.6em;*/
   vertical-align: top;
 }
 
