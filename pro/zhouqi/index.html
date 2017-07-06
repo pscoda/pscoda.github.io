@@ -1,20 +1,11 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <title>周琦NBA之路</title>
-    <!-- ===================================
-        PLUGIN
-    ==================================== -->
-    <link rel="stylesheet" href="css/animate.css">
-
-    <!-- ===================================
-        MAIN STYLESHEET
-    ==================================== -->
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <style>
 	.axis path,
@@ -54,14 +45,8 @@
         FIRST PAGE
     ==================================== -->
 
-    <section class="first-page" style="padding: 0">
-        <!-- <div class="title-container">
-            <h1 class="main-title animated fadeIn">周琦之路</h1>
-            <h2 class="intro1  animated fadeIn">2016年NBA选秀大会，周琦以第二轮43顺位被休斯顿火箭队选中，但周琦并未立即加盟。同年8月的里约奥运会上，几乎所有人都对他报以厚望，但周琦场均只有5.6分1.2篮板进账，结果不尽如人意，引起诸多争议。在CBA 16-17赛季总决赛中，周琦所在的新疆4-0横扫广东夺冠，周琦功不可没，成功地证明了自己的实力。近期又不断传出周琦将在下赛季加盟火箭队的消息。现在的周琦是否有实力进入NBA呢？他又将在联盟中扮演什么样的角色呢？
-            </h2>
-        </div> -->
-        
-        <img src="./img/cover.jpg" style="width: 100%">
+    <section class="first-page" style="padding: 0">   
+        <!-- <img src="./img/cover.jpg" class="coverimg"> -->
     </section>
 
     <!-- ===================================
@@ -69,7 +54,7 @@
     ==================================== -->
     <div class="second-page" style="margin-top: 1em;">
         <div class="title">
-            <div class="sub-title" style="font-family:黑体;font-size:0.8em;">
+            <div class="sub-title" style="font-family:黑体;font-size:4em;">
                 <div class="title-diamond"></div>
                 CBA冠军之路
             </div> 
@@ -90,14 +75,16 @@
         THIRD PAGE
     ==================================== -->
     <div class="third-page" style="margin:0 auto;text-align:center;">
-        <svg id="changguisai" style="position: relative;"></svg>
+        <div class="svgcontainer">
+            <svg id="changguisai" style="position: relative;"></svg>
+        </div>
         <p class="intro-text" style="margin:0; margin-top: -1em;">16-17常规赛赛新疆队排名变化以及周琦得分比重</p>
-        <div class="intro" style="margin-top:0.4em;">
-            <div class="intro-text" style="width: 8rem;">
+        <div class="intro" style="">
+            <div class="intro-text" style="width: 62%;">
                 16-17赛季常规赛新疆队以一波七连胜开局，位居联盟首位。但却在随后的五场比赛中遭遇了三场败仗，分别负于广东，深圳，上海，排名也因此掉落到了联盟第六的位置。经历了低谷后，新疆队稳扎稳打，排名也逐步上升。最终在常规赛中取得32胜6负的骄人战绩，获得本赛季常规赛冠军。从图中可以看出，周琦在常规赛中得分稳定，也不乏有砍下高分的优秀表现。作为一名中锋，在进攻端的稳定得分也体现出周琦不俗的实力。<br>（注：本赛季周琦常规赛缺席6场，对应上图单色矩形。)
             </div>
             <div>
-                <embed src="img/svg/regularMatchIntro.svg" width="100%" height="100%" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" style="top: -0.5rem;position: absolute;right: -5rem;" />
+                <img src="img/svg/regularMatchIntro.svg" width="100%" height="100%" style="top: 0em;position: absolute;left: 18.5em;" />
             </div>
         </div>
     </div>
@@ -105,13 +92,19 @@
     <!-- ===================================
         FORTH PAGE
     ==================================== -->
-    <div class="forth-page" >
-        <div style="position:relative;">
-        <svg id="post-season-svg"></svg>
-        <div class="intro-text" style="left: 7rem;">16-17CBA季后赛流程图</div>
-        <img src="img/svg/postSeasonIntro.svg" width="20%" height="20%" class="postSeasonIntro" />
+    <div class="forth-page">
+        <div style="position:relative;width:100%;">
+            <div class="svgcontainer">
+                <svg id="post-season-svg"></svg>
+            </div>
+            <div class="svgcontainer">
+                <img src="img/svg/postSeasonIntro.svg" width="20%" height="20%" class="postSeasonIntro" />
+            </div>
+            <div style="margin:0 auto;text-align:center;">
+                <div class="intro-text" style="">16-17CBA季后赛流程图</div>
+            </div>
         </div>
-        <div class="intro" style="margin-top: 0.4em;">
+        <div class="intro" style="margin-top: 0.4em;margin-bottom:2.8em;">
             <div class="intro-text" style="">
                 季后赛第一轮中，作为常规赛冠军的新疆队迎战联盟第八的山东队。虽然有着排名上的优势，但第一场却以17分的差距负于山东队，对于他们来说可谓是当头一棒。随后新疆队调整心态，一鼓作气连下三场取得系列赛的胜利。半决赛中新疆队迎战辽宁队，飞虎诸将依旧保持着良好的竞技状态，前三场就取得了大比分3:0的领先，并且平均分差达到了16分以上。第四场中由于停表事件被辽宁队扳回一城。随后新疆队再也没有给辽宁队机会，第五场比赛轻取辽宁，挺进总决赛。
             </div>
@@ -124,11 +117,11 @@
     <!-- ===================================
         FIFTH PAGE
     ==================================== -->
-    <div class="fifth-page" style="background: #f7f8f8;margin-top: 0.6em;">
+    <div class="fifth-page" style="background: #f7f8f8;">
 
         <div class="redpanel" style="width:100%;background-color:#9a0202;margin:0 auto;text-align:center;position: relative;">
             
-            <div class="intro" style="padding-top: 0.6em;">
+            <div class="intro" style="padding-top: 2.8em;">
             <div class="intro-text" style="color:white;">
                 近十年来，新疆队在08-09，09-10，10-11，13-14赛季四度闯进CBA总决赛，但分别三次负于广东，一次负于北京。本赛季的这个冠军可谓是来之不易，对于新疆队而言意义非凡。那么周琦在本次新疆队夺冠过程中到底发挥了多大的作用呢？
             </div>
@@ -141,7 +134,7 @@
             </div>
             </div>
             <img src="img/16.svg" style="max-width:100%;height:auto;width:62%;margin-top: 1em;">
-            <div class="intro" style="padding-bottom: 0.6em;">
+            <div class="intro" style="padding-bottom: 2.8em;">
             <div class="intro-text" style="color:white;">
                 周琦在CBA联盟中的实力如何呢？通过对16-17赛联盟中所有中锋的数据进行统计分析，我们可以看出周琦的得分位于前列，篮板、助攻、抢断，盖帽的数据都超过了正常中锋的数据范围。值得一提的是周琦的场均盖帽，位于全联盟顶尖位置。从这几个角度不难看出，周琦已经达到了CBA联盟中顶尖中锋的水平。那么在即将到来的夏季联赛中周琦能否给我们带来惊喜呢？
             </div>
@@ -154,9 +147,9 @@
         SIX PAGE
     ==================================== -->
     <div class="six-page">
-        <div class="intro" style="margin-top: 0.6em;">
+        <div class="intro" style="margin-top: 2.8em;">
             <div class="intro-text" style="margin-top:1em;margin-bottom: 0.6em;">
-                夏季联赛是NBA新秀们的“试炼场”，要想快速取得球队的信任，争取新赛季的出场时间，就一定要在夏季联赛中大胆地秀出自己的“肌肉”。北京时间7月8日早上10点，周琦将迎来他NBA生涯第一场比赛，周琦的NBA初次试水是否能体现他的实力，未来的周琦有能在联盟中扮演怎样的角色？
+                夏季联赛是NBA新秀们的“试炼场”，要想快速取得球队的信任，争取新赛季的出场时间，就一定要在夏季联赛中大胆地秀出自己的“肌肉”。北京时间7月8日早上10点，周琦将迎来他NBA生涯第一场比赛，周琦的NBA初次试水是否能体现他的实力，未来的周琦又能在联盟中扮演怎样的角色？
             </div>
         </div>
         <!-- <img src="img/I.jpg" style="width:100%;max-width:100%;height:auto"> -->
@@ -170,12 +163,14 @@
         <!-- 选秀数据 -->
         <div class="svg-container" style="">
             <div style="font-size:0;">
-            <img src="img/svg/InNBA3.svg" width="60%"/>
+            <div class="svgcontainer">
+                <img src="img/svg/InNBA3.svg" width="60%"/>
+            </div>
             </div>
         </div>
         
 
-        <div class="intro" style="margin-top: 0.4em;">
+        <div class="intro textimg" style="margin-top: 0.4em;">
             <div class="intro-text" >
                  通过分析近十年NBA选秀体测数据（敏捷度，爆发力，速度和各项身体指标）。可以看出周琦的体测数据基本达到了NBA中锋的正常水准。在绕桩变向和禁区折返跑这两项敏捷度测试中，周琦表现不俗，有着超越常规NBA中锋的水准。中锋最重要的垂直纵跳一项，周琦也超出了联盟中锋的正常范围。身体素质上，周琦的身高臂展以及体脂水平都可以算得上顶尖。事实上，周琦的臂展还比1992年的“大鲨鱼”奥尼尔(Shaquille O'Neal)长了3/4英寸。
             </div>
@@ -190,40 +185,46 @@
         <!-- MDS算法 -->
         <div class="mdscontainer" style="position: relative;">
             <div style="font-size:0;">
-            <img src="./img/MDS1.png" class="mdsimage" style="">
+            <div class="svgcontainer">
+                <img src="./img/MDS1.png" class="mdsimage" style="">
             </div>
-            <div class="intro" style="margin-top: 0.4em;">
+            </div>
+            <div class="intro textimg" style="">
                 <div class="intro-text" style="">
-                    通过MDS多维尺度分析(保持每一对球员在球员高维属性空间的两两相似性的机器学习方法)将球员的各项数据进行降维投影的处理，可以得出球员相互间的相似度。图中球员间的距离代表他们的相似度。然我们一起看看NBA联盟中那些球员可以成为周琦未来发展的模版。                
+                    通过MDS多维尺度分析(保持每一对球员在球员高维属性空间的两两相似性的机器学习方法)将球员的各项数据进行降维投影的处理，可以得出球员相互间的相似度。图中球员间的距离代表他们的相似度，由此可以看出NBA联盟中哪些球员可以成为周琦未来发展的模版。                
                 </div>
                 <div class="intro-text" style="margin-top: 1.2em;">
                     综合球员各项数据，可以看出同位置球员分布趋势比较明显。周琦在趋向中锋和大前锋的同时仍有一定的偏离，这说明他和这些位置的常规球员有一定的不同。
                 </div>
-                <div class="intro-text" style="margin-top: 1.2em;">
+                <div class="intro-text textimgafter" style="margin-top: 1.2em;">
                     为了理解周琦离群的原因，我们单独把他们运动能力数据（敏捷，爆发力，速度）做了投影，发现了更有意思的东西。
                 </div>
             </div>
         </div>
-        <div class="mdscontainer" style="position: relative;margin-top:0.4em;">
+        <div class="mdscontainer textimg" style="position: relative;">
             <div style="font-size:0;">
-            <img src="./img/MDS2.png" class="mdsimage" style="">
+            <div class="svgcontainer">
+                <img src="./img/MDS2.png" class="mdsimage" style="">
             </div>
-            <div class="intro" style="margin-top: 0.4em;">
+            </div>
+            <div class="intro textimg" style="">
                 <div class="intro-text" style="">
                     这张图中，周琦距离常规中锋区域更远了，他的敏捷度，速度，以及爆发力更接近前锋甚至是后卫。结合上面单项数据的对比图可以发现，周琦的变向，折返跑，垂直纵跳能力都超过一般的中锋，这就解释了他离群的原因。单从这些数据上看或许周琦未来更适合打大前锋的位置，考虑到他灵活的脚步，篮下得分能力以及达到三分线的射程，周琦或许也能够成为像卡尔-安东尼•唐斯(Karl-Anthony Towns)那样的新型中锋。
                 </div>
-                <div class="intro-text" style="margin-top: 1.2em;">
+                <div class="intro-text textimgafter" style="margin-top: 1.2em;">
                     这张图单独分析了球员的各项身体指标，可以得出造成周琦离群的原因不止一个。周琦的特点在于出众的身高和臂展，以及他过轻的体重。当这个两个极端同时出现在一个球员身上，那他必然会显得与众不同。图中周琦附近的球员有本赛季NBA篮板王哈桑•怀特塞德（Hassan Whiteside），号称“法国蜘蛛人”若纳唐-让纳（Jonathan Jeanne）与NBA盖帽王鲁迪-戈伯特（Rudy Gobert）。由球员相似性推测，周琦未来的表现是值得期待的。固然周琦身体的瘦弱已经成为了他职业发展的障碍，周琦似乎也认识到了自己的不足，最近有关周琦的报道也都是正面为主，他也在网上晒出了自己苦练力量的视频。如果周琦通过刻苦的训练克服了自己的短板，相信他一定能成为一名出色的NBA球员。
                 </div>
             </div>
         </div>
-        <div class="mdscontainer" style="margin-top:0.4em;">
+        <div class="mdscontainer" style="">
             <div style="font-size:0;">
-            <img src="./img/MDS3.png" class="mdsimage" style="margin-top: 0.4em;">
+            <div class="svgcontainer">
+                <img src="./img/MDS3.png" class="mdsimage" style="">
             </div>
-            <div class="intro" style="margin-top:0.4em;">
+            </div>
+            <div class="intro textimg" style="">
                 <div class="intro-text" style="padding-bottom: 0">
-                    通过本文的分析，周琦的确是一名很有潜力的球员，火箭队应该正式看中了这一点，才会有了这笔稳赚不亏的交易。纵观火箭队的内线，周琦的身高臂展，以及他的封盖能力都是居于首位的，倘若周琦能够及时加强自己的力量，适应NBA比赛中更加激烈的对抗，他的未来将是一片光明。
+                    通过本文的分析，周琦的确是一名很有潜力的球员，火箭队应该正是看中了这一点，才会有了这笔稳赚不亏的交易。纵观火箭队的内线，周琦的身高臂展，以及他的封盖能力都是居于首位的，倘若周琦能够及时加强自己的力量，适应NBA比赛中更加激烈的对抗，他的未来将是一片光明。
                 </div>
                 <div class="intro-text" style="margin-top: 1.2em;">
                     目前，周琦已经与火箭队签下四年557万美元的合同。将身披火箭队9号球衣参加本周在拉斯维加斯开打的夏季联赛，引来自己在NBA的首秀。如果周琦能在比赛中发挥出自己速度与弹跳的优势，展现出他的封盖实力。我们认为周琦在首秀上的表现不会让我们失望。
@@ -232,10 +233,43 @@
         </div>
     </div>
 
-    <footer style="background:#9a0202;width: 100%;height: 2.7rem;position:relative;margin-top:0.4em;">
-        <img src="./img/footer.png" style="position: absolute;top: -1em;width: 20%;">
-        <span class="footer-text">Footer</span> 
-    </footer>
+    <div>
+    <div class="footer">
+        <!-- <img src="./img/footer.png" class="zhouqifooter"> -->
+        <div class="footer_img_text_container">
+            <div style="" class="footer_img_container">
+                <img src="./img/xinhuawang.png" style="width: 10em">
+                <img src="./img/zju.png" style="width: 7em;position:relative;top:1em;padding-left: 2em;">
+                <div>
+                    <div style="display:inline;">新华网数据新闻部</div>
+                    <div style="display:inline;padding-left:3em;">浙大可视分析小组</div>
+                </div>
+            </div>
+            <div class="footer_text_container">
+                <div class="footer_text3">
+                    <p>资料来源：</p>
+                    <p>CBA数据库 </p>
+                    <p>NBA选秀数据网</p>
+                    <p>新浪体育</p>
+                    <p>搜狐体育</p>
+                    <p>腾讯体育</p>
+                </div>
+                <div class="footer_text">
+                    <p>监制：马轶群</p>
+                    <p>指导：陈为&emsp;张玮</p>
+                    <p>文案：陈建旭&emsp;马倩</p>
+                    <p>设计：田龙</p>
+                    <p>前端：劳天溢&emsp;谭思危&emsp;陈建旭&emsp;李朋洋&emsp;高胜杰</p>
+                </div>
+                <div class="footer_text2">
+                    <p>Copyright©2000 - 2017 XINHUANET.com</p>
+                    <p>All Rights Reserved.</p>
+                    <p>制作单位：新华网 </p>
+                    <p>版权所有：新华网股份有限公司</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 <!-- ===================================
@@ -245,17 +279,17 @@
 <script src="./js/d3.v3.min.js"></script>
 <script src="./js/postMatch.js"></script>
 <script type="text/javascript">
-// rem的自适应代码 
-var docEl = document.documentElement,
-    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-    recalc = function() {
-        //设置根字体大小
-        docEl.style.fontSize = 20 * (docEl.clientWidth / 320) + 'px';
-    };
+// // rem的自适应代码 
+// var docEl = document.documentElement,
+//     resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+//     recalc = function() {
+//         //设置根字体大小
+//         docEl.style.fontSize = 20 * (docEl.clientWidth / 320) + 'px';
+//     };
 
-//绑定浏览器缩放与加载时间
-window.addEventListener(resizeEvt, recalc, false);
-document.addEventListener('DOMContentLoaded', recalc, false);
+// //绑定浏览器缩放与加载时间
+// window.addEventListener(resizeEvt, recalc, false);
+// document.addEventListener('DOMContentLoaded', recalc, false);
 </script>
 <script src="./js/regularMatch.js"></script>
 </html>

@@ -1,12 +1,29 @@
-@font-face {
+/*@font-face {
   font-family: FZLTXHJW;
   src: url("fonts/FZLTXHJW.otf");
+}*/
+* {
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
-  /*font-family: 微软雅黑;*/
+  width: 100%;
+  height: 100%;
+  font-family: 微软雅黑;
   margin:0;
   overflow-x: hidden;
-  font: normal 100% 微软雅黑;
+  font-size: 1em;
+  line-height: 2.5;
+  color: #000;
+  background-color: #fff;
+  margin: 0;
+  text-indent: 2em;
 }
 
 .xjtext {
@@ -47,8 +64,6 @@ body {
 
 section {
   position: relative;
-/*  height: 13rem;*/
-  /*padding-bottom: 50px;*/
   padding-top: 50px;
   height: 100%;
   width: 100%;
@@ -62,37 +77,23 @@ section {
 
 .intro {
   position: relative;
-  width: 10rem;
-  /*left: 3rem;*/
-  line-height: 0.5em;
+  width: 63%;
   margin: 0 auto;
   text-align: justify;
-  /*margin-top: 1rem;*/
 }
 .intro-text {
-  font-size: 16px;
   position: relative;
-  /*margin-bottom: 1em;*/
 }
 
-.first-page .title-container{
-    position: absolute;
-    left: 7rem;
-    top: 3rem;
-    color: white;
-}
-.first-page .main-title{
-  font-size: 1.1rem;
+.first-page {
+  width: 100%;
+  height: 100%;
   position: relative;
-  margin: 20px
+  background: url(../img/cover3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
 }
-.first-page .intro1{
-  font-size: 0.15em;
-  position: relative;
-  padding-right: 1rem;
-  line-height: 2em;
-}
-
 .second-page {
   width: 100%;
 }
@@ -121,15 +122,21 @@ section {
   background-repeat: no-repeat, no-repeat;
 }
 
+.textimg {
+  margin-top: 2em; 
+}
+
+.textimgafter {
+  margin-bottom: 2em;
+}
+
 
 .third-page {
   top: 0rem;
 }
 
 .forth-page{
-  /*padding-top: 1rem;
-  height: 1100px;
-  padding-bottom: 1rem;*/
+  width: 100%;
 }
 
 .svg-container{
@@ -146,56 +153,76 @@ section {
   width: 60%;
 }
 
-.MDS-container .intro-text{
-  /*padding-bottom: 1rem;*/
-  top: 2rem
-}
-.MDS-container .intro{
-  margin: 0; 
-  top: -2rem;
+.footer_img_text_container {
+  top: 8em;
   position: relative;
 }
-.footer-text{
-    font-size: 0.3em;
-    color: white;
-    left: 45%;
-    /* top: 40% !important; */
-    position: relative;
-    /* top: 0.6rem; */
-    font-size: 0.5em;
-    line-height: 5.5em;
-}
-@media screen and (min-width: 1200px) {
-  .intro-text {
-    font-size: 16px;
-  }
+
+.footer_img_container {
+  font-size: 0.4em;
+  display: inline-block;
+  text-align: left;
 }
 
-.six-page{
-  /*background-image: url('../img/I.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 395px; 
-  background-position: center;*/
+.footer_text_container {
+  line-height: 1.5;
+  font-size: 0.4em;
+  text-indent: 0;
+  display: inline-block;
+  padding-left: 4em;
+  text-align: left;
 }
 
-
-@media screen and (max-width: 877px) {
-  .postSeasonIntro{
-    top: 7rem!important;
-  }
+.footer_text {
+  width: 11em;
+  display: inline;
+  float: left;
+  padding-left: 4em;
 }
 
-@media screen and (min-width: 1500px) {
-  .postSeasonIntro{
-    top: 4rem!important;
-  }
+.footer_text2 {
+  width: 22em;
+  display: inline;
+  float: left;
+  padding-left: 4em;
+}
+
+.footer_text3 {
+  width:8em;
+  display: inline;
+  float: left;
+}
+
+.svgcontainer {
+  text-indent: 0;
 }
 
 .postSeasonIntro{
   position: absolute;
   z-index: 100;
   right: 5%;
-  bottom: 0; 
-  top: 5rem;
+  bottom: 15%; 
 }
+
+.footer {
+  width: 100%;
+  position: relative;
+  height: 20em;
+  background: url(../img/footer.png) no-repeat top 0em left 0 / 18% ,-webkit-linear-gradient(top, white 0%, white 20%, #efefef 20%,#efefef 100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.zhouqifooter {
+  position: absolute;
+  top: -5em;
+  width: 20em;
+  left: 0em;
+}
+
+/*.footer_container {
+  height: 25em;
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: 
+}*/
