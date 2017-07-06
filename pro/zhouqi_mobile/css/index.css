@@ -11,6 +11,9 @@ img {
   vertical-align: middle
 }
 
+p {
+  text-indent: 2em;
+}
 
 .zhouqiimg {
   max-width: 100%;
@@ -110,4 +113,19 @@ img {
   height: 15px;
   transform: rotate(45deg);
   margin: 0 auto;
+}
+
+.footertext {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  text-indent: 0;
+}
+
+.qrcodecontainer {
+  display: inline-block;
+  font-size: 0.6em;
+}
+
+.qrcodeimg {
+  width: 8em;
 }
