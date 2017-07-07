@@ -1,7 +1,7 @@
-/*@font-face {
-  font-family: FZLTXHJW;
-  src: url("fonts/FZLTXHJW.otf");
-}*/
+@font-face {
+  font-family: HYSWSSW;
+  src: url("fonts/HYShangWeiShouShuW.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +10,10 @@
 html {
   height: 100%;
   width: 100%;
+}
+
+strong {
+  font-size: 1.2rem;
 }
 
 body {
@@ -89,21 +93,39 @@ section {
   width: 100%;
   height: 100%;
   position: relative;
-  background: url(../img/cover3.jpg);
+  /*background: url(../img/zqcover.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 100%, 100%;
+*/}
+.cover_title {
+  position: absolute;
+  font-family: HYSWSSW;
+  font-size: 6.5vw;
+  color: white;
+  left: 7em;
+  top: 2.3em;
+}
+.foreword {
+  color: white;
+  position: absolute;
+  left: 49%;
+  top: 53%;
+  width: 41%;
+  font-size: 1.2rem;
 }
 .second-page {
   width: 100%;
 }
-.second-page .title {
-  font-size: 0.4em;
+.title {
+  /*font-size: 0.4em;*/
   margin: 0 auto;
   text-align: center;
 }
-.second-page .title .sub-title {
+.title .sub-title {
   position: relative;
+  font-family:黑体;
+  font-size:2em;
 }
 .title-diamond {
   background: #f22525;
@@ -120,6 +142,10 @@ section {
   background-position: 151% 1%, -28% bottom;
   background-size: 55%, 37%;
   background-repeat: no-repeat, no-repeat;
+}
+
+.extext {
+  font-size:0.9rem;
 }
 
 .textimg {
